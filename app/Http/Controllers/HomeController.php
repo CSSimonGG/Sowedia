@@ -9,11 +9,18 @@ use App\Http\Requests\UpdateHomeRequest;
 class HomeController extends Controller
 {
     /**
-     * Display a listing of the resource.
+     * Display home page
      */
-    public function index()
+    public function index($locale)
     {
-        //
+         if (!in_array($locale, ['en', 'nl'])) {
+            abort(400);
+        }
+
+        app()->setLocale($locale);
+
+        // Return home page
+        return view('home');
     }
 
     /**

@@ -9,11 +9,18 @@ use App\Http\Requests\UpdateContactRequest;
 class ContactController extends Controller
 {
     /**
-     * Display a listing of the resource.
+     * Display contact page
      */
-    public function index()
+    public function index($locale)
     {
-        //
+         if (!in_array($locale, ['en', 'nl'])) {
+            abort(400);
+        }
+
+        app()->setLocale($locale);
+
+        // Return contact page
+        return view('contact');
     }
 
     /**

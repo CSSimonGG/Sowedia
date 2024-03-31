@@ -9,13 +9,19 @@ use App\Http\Requests\UpdateReviewsRequest;
 class ReviewsController extends Controller
 {
     /**
-     * Display a listing of the resource.
+     * Display reviews page
      */
-    public function index()
+    public function index($locale)
     {
-        //
-    }
+         if (!in_array($locale, ['en', 'nl'])) {
+            abort(400);
+        }
 
+        app()->setLocale($locale);
+
+        // Return reviews page
+        return view('reviews');
+    }
     /**
      * Show the form for creating a new resource.
      */

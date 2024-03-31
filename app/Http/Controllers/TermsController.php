@@ -9,11 +9,18 @@ use App\Http\Requests\UpdateTermsRequest;
 class TermsController extends Controller
 {
     /**
-     * Display a listing of the resource.
+     * Display terms and conditions page
      */
-    public function index()
+    public function index($locale)
     {
-        //
+         if (!in_array($locale, ['en', 'nl'])) {
+            abort(400);
+        }
+
+        app()->setLocale($locale);
+
+        // Return portfolio page
+        return view('terms');
     }
 
     /**

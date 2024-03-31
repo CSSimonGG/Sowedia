@@ -9,11 +9,78 @@ use App\Http\Requests\UpdateServicesRequest;
 class ServicesController extends Controller
 {
     /**
-     * Display a listing of the resource.
+     * Display services page
      */
-    public function index()
+    public function index($locale)
     {
-        //
+         if (!in_array($locale, ['en', 'nl'])) {
+            abort(400);
+        }
+
+        app()->setLocale($locale);
+
+        // Return services page
+        return view('services.services');
+    }
+
+    /**
+     * Display service web development
+     */
+    public function web($locale)
+    {
+         if (!in_array($locale, ['en', 'nl'])) {
+            abort(400);
+        }
+
+        app()->setLocale($locale);
+
+        // Return service web development
+        return view('services.web-development');
+    }
+
+    /**
+     * Display service design
+     */
+    public function design($locale)
+    {
+         if (!in_array($locale, ['en', 'nl'])) {
+            abort(400);
+        }
+
+        app()->setLocale($locale);
+
+        // Return service design
+        return view('services.design');
+    }
+
+    /**
+     * Display service social media
+     */
+    public function socialmedia($locale)
+    {
+         if (!in_array($locale, ['en', 'nl'])) {
+            abort(400);
+        }
+
+        app()->setLocale($locale);
+
+        // Return service social media
+        return view('services.social-media');
+    }
+
+    /**
+     * Display service hosting
+     */
+    public function hosting($locale)
+    {
+         if (!in_array($locale, ['en', 'nl'])) {
+            abort(400);
+        }
+
+        app()->setLocale($locale);
+
+        // Return service hosting
+        return view('services.hosting');
     }
 
     /**

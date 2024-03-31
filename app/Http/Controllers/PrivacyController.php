@@ -9,11 +9,18 @@ use App\Http\Requests\UpdatePrivacyRequest;
 class PrivacyController extends Controller
 {
     /**
-     * Display a listing of the resource.
+     * Display privacy page
      */
-    public function index()
+    public function index($locale)
     {
-        //
+         if (!in_array($locale, ['en', 'nl'])) {
+            abort(400);
+        }
+
+        app()->setLocale($locale);
+
+        // Return privacy page
+        return view('privacy');
     }
 
     /**
