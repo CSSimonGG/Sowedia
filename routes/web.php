@@ -26,5 +26,5 @@ Route::get('/home/{locale}', function (string $locale) {
     App::setLocale($locale);
     
     // Home page
-    return view('welcome');
+    return view('home');
 });
