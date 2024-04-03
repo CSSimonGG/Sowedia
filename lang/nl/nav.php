@@ -5,7 +5,6 @@ return [
     "portfolio" => "Portfolio",
     "about" => "Over ons",
     "reviews" => "Reviews",
-    "flag" => "NL",
     "contact" => "Contact",
     "services" => "Diensten",
     "service_website" => "Websites",
