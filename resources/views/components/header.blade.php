@@ -1,10 +1,10 @@
 <header class="sticky top-0">
-    <div class="bg-blue h-[120px] flex items-center">
-        <div class="xl:mx-20 mx-10">
+    <div class="bg-blue h-[120px] flex items-center place-content-center">
+        <div class="absolute xl:left-20 left-10">
             <a href="/{{ __('lang.lang') }}/home"><img src="{{ asset('imgs/sowedia_logo.png') }}" alt="Sowedia"
                     class="w-[150px]"></a>
         </div>
-        <nav class="max-lg:hidden">
+        <nav class="max-lg:hidden flex">
             <ul class="flex text-white text-xl font-bold space-x-9">
                 <li class="hover:text-gray">
                     <a tabindex="1" href="/{{ __('lang.lang') }}/home" id="home-link">
@@ -27,7 +27,7 @@
                     </a>
                 </li>
                 <li class="hover:text-gray">
-                    <a tabindex="5" href="/{{ __('lang.lang') }}/reviews">
+                    <a tabindex="5" href="/{{ __('lang.lang') }}/reviews" id="reviews-link">
                         {{ __('header.reviews') }}
                     </a>
                 </li>
@@ -107,6 +107,7 @@
     const servicesLink = document.getElementById('services-link');
     const portfolioLink = document.getElementById('portfolio-link');
     const aboutLink = document.getElementById('about-link');
+    const reviewsLink = document.getElementById('reviews-link');
 
     // Function to add active class to the link corresponding to the current page
     function setActiveLink() {
@@ -118,6 +119,8 @@
             portfolioLink.classList.add('text-gray'); // Apply gray color to the portfolio text
         } else if (currentPath === '/{{ __('lang.lang') }}/about') {
             aboutLink.classList.add('text-gray'); // Apply gray color to the about text
+        } else if (currentPath === '/{{ __('lang.lang') }}/reviews') {
+            reviewsLink.classList.add('text-gray'); // Apply gray color to the about text
         }
     }
 
