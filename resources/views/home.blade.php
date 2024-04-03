@@ -8,7 +8,7 @@
             <h1 class="sm:text-5xl max-sm:text-3xl font-bold">{{ __('home.title') }}</h1>
             <p class="sm:text-xl max-sm:text-lg mt-4">{{ __('home.description') }}</p>
             <div class="mt-10">
-                <a tabindex="8" href="/{{ __('lang.lang') }}/contact"
+                <a tabindex="8" href="/{{ __('lang.lang') }}/services"
                     class="text-xl font-bold text-black bg-orange px-9 py-4 rounded-full">
                     {{ __('nav.services') }}
                 </a>
