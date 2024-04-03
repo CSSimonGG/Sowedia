@@ -8,32 +8,32 @@
             <ul class="flex text-white text-xl font-bold space-x-9">
                 <li class="hover:text-gray">
                     <a tabindex="1" href="/{{ __('lang.lang') }}/home" id="home-link">
-                        {{ __('header.home') }}
+                        {{ __('nav.home') }}
                     </a>
                 </li>
                 <li class="hover:text-gray">
                     <a tabindex="2" href="/{{ __('lang.lang') }}/services" id="services-link">
-                        {{ __('header.services') }}
+                        {{ __('nav.services') }}
                     </a>
                 </li>
                 <li class="hover:text-gray">
                     <a tabindex="3" href="/{{ __('lang.lang') }}/portfolio" id="portfolio-link">
-                        {{ __('header.portfolio') }}
+                        {{ __('nav.portfolio') }}
                     </a>
                 </li>
                 <li class="hover:text-gray">
                     <a tabindex="4" href="/{{ __('lang.lang') }}/about" id="about-link">
-                        {{ __('header.about') }}
+                        {{ __('nav.about') }}
                     </a>
                 </li>
                 <li class="hover:text-gray">
                     <a tabindex="5" href="/{{ __('lang.lang') }}/reviews" id="reviews-link">
-                        {{ __('header.reviews') }}
+                        {{ __('nav.reviews') }}
                     </a>
                 </li>
                 <li class="hover:text-gray">
                     <a tabindex="6">
-                        {{ __('header.flag') }}
+                        {{ __('nav.flag') }}
                     </a>
                 </li>
             </ul>
@@ -41,7 +41,7 @@
         <div class="absolute right-0 max-lg:hidden">
             <a tabindex="7" href="/{{ __('lang.lang') }}/contact"
                 class="text-xl font-bold text-black bg-orange px-9 py-4 xl:mr-20 mr-10 rounded-full">
-                {{ __('header.contact') }}
+                {{ __('nav.contact') }}
             </a>
         </div>
         <div class="fill-white stroke-white flex absolute right-10 lg:hidden" onclick="menufunction()">
@@ -65,32 +65,32 @@
             <ul class="text-white text-xl font-bold space-y-4">
                 <li class="hover:text-gray">
                     <a tabindex="1" href="/{{ __('lang.lang') }}/home">
-                        {{ __('header.home') }}
+                        {{ __('nav.home') }}
                     </a>
                 </li>
                 <li class="hover:text-gray">
                     <a tabindex="2" href="/{{ __('lang.lang') }}/services">
-                        {{ __('header.services') }}
+                        {{ __('nav.services') }}
                     </a>
                 </li>
                 <li class="hover:text-gray">
                     <a tabindex="3" href="/{{ __('lang.lang') }}/portfolio">
-                        {{ __('header.portfolio') }}
+                        {{ __('nav.portfolio') }}
                     </a>
                 </li>
                 <li class="hover:text-gray">
                     <a tabindex="4" href="/{{ __('lang.lang') }}/about">
-                        {{ __('header.about') }}
+                        {{ __('nav.about') }}
                     </a>
                 </li>
                 <li class="hover:text-gray">
                     <a tabindex="5" href="/{{ __('lang.lang') }}/reviews">
-                        {{ __('header.reviews') }}
+                        {{ __('nav.reviews') }}
                     </a>
                 </li>
                 <li class="hover:text-gray">
                     <a tabindex="6" href="/{{ __('lang.lang') }}/contact">
-                        {{ __('header.contact') }}
+                        {{ __('nav.contact') }}
                     </a>
                 </li>
             </ul>

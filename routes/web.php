@@ -62,8 +62,8 @@ Route::get('/{locale}/services/design', [ServicesController::class, 'design']);
 Route::redirect('/services/design', '/nl/services/design'); // Redirect /services/design to Dutch services/design page
 
 // Social media page
-Route::get('/{locale}/services/social-media', [ServicesController::class, 'socialmedia']);
-Route::redirect('/services/social-media', '/nl/services/social-media'); // Redirect /services/social-media to Dutch services/social-media page
+Route::get('/{locale}/services/social-media-management', [ServicesController::class, 'socialmedia']);
+Route::redirect('/services/social-media-management', '/nl/services/social-media-management'); // Redirect /services/social-media to Dutch services/social-media page
 
 // Hosting page
 Route::get('/{locale}/services/hosting', [ServicesController::class, 'hosting']);
