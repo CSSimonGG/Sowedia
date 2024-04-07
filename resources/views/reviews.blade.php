@@ -1,3 +1,8 @@
 <x-app>
-    <h2>Reviews</h2>
+    <x-slot:title>
+        {{ __('nav.reviews') }}
+    </x-slot:title>
+    <div>
+        <h2>Reviews</h2>
+    </div>
 </x-app>

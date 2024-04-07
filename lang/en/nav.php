@@ -3,6 +3,9 @@
 return [
     "home" => "Home",
     "portfolio" => "Portfolio",
+    "portfolio_sowedia" => "Portfolio project Sowedia",
+    "portfolio_telecombinatie" => "Portfolio project Telecombinatie",
+    "portfolio_csr" => "Portfolio project CSR Summa College",
     "about" => "About us",
     "reviews" => "Reviews",
     "contact" => "Contact",

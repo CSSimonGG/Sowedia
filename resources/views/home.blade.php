@@ -136,7 +136,7 @@
     </div>
     <div class="bg-blue text-white w-full min-h-[534px]">
         <div class="xl:ml-20 max-xl:mx-10">
-            <h2 class="text-2xl font-bold pt-8">Portfolio</h2>
+            <h2 class="text-3xl font-bold py-8 flex justify-center">Portfolio</h2>
         </div>
     </div>
     <div class="bg-white w-full min-h-[494px]">
