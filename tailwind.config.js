@@ -20,6 +20,9 @@ export default {
             black: "#000000",
         },
         screens: {
+            xxs: "320px",
+            // => @media (min-width: 320px) { ... }
+
             xs: "425px",
             // => @media (min-width: 425px) { ... }
 
@@ -38,8 +41,8 @@ export default {
             xl: "1280px",
             // => @media (min-width: 1280px) { ... }
 
-            "2xl": "1536px",
-            // => @media (min-width: 1536px) { ... }
+            "2xl": "1344px",
+            // => @media (min-width: 1344px) { ... }
         },
     },
     plugins: [],

@@ -39,9 +39,9 @@ class ServicesController extends Controller
     }
 
     /**
-     * Display service design
+     * Display service webshops
      */
-    public function design($locale)
+    public function webshops($locale)
     {
          if (!in_array($locale, ['en', 'nl'])) {
             abort(400);
@@ -50,7 +50,7 @@ class ServicesController extends Controller
         app()->setLocale($locale);
 
         // Return service design
-        return view('services.design');
+        return view('services.webshops');
     }
 
     /**
@@ -66,6 +66,21 @@ class ServicesController extends Controller
 
         // Return service social media
         return view('services.social-media');
+    }
+
+    /**
+     * Display service design
+     */
+    public function design($locale)
+    {
+         if (!in_array($locale, ['en', 'nl'])) {
+            abort(400);
+        }
+
+        app()->setLocale($locale);
+
+        // Return service design
+        return view('services.design');
     }
 
     /**
