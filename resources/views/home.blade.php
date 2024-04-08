@@ -23,7 +23,7 @@
             <h2 class="text-3xl font-bold py-8 flex justify-center">{{ __('nav.services') }}</h2>
             <div class="flex flex-wrap justify-center max-lg:max-w-[768px] mx-auto">
                 <div
-                    class="bg-blue text-white max-2xl:lg:w-[208px] max-lg:xxs:w-[284px] max-w-[284px] h-[377px] mb-8 sm:mr-8 max-2xl:lg:ml-8 flex flex-col items-center text-center relative p-8">
+                    class="bg-blue text-white max-2xl:lg:w-[200px] max-lg:xxs:w-[284px] max-w-[284px] h-[377px] mb-8 sm:mr-8 max-2xl:lg:ml-8 flex flex-col items-center text-center relative p-8">
                     <div>
                         <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
@@ -53,7 +53,7 @@
                     </div>
                 </div>
                 <div
-                    class="bg-blue text-white max-2xl:lg:w-[208px] max-lg:xxs:w-[284px] max-w-[284px] h-[377px] mb-8 lg:mr-8 flex flex-col items-center text-center relative p-8">
+                    class="bg-blue text-white max-2xl:lg:w-[200px] max-lg:xxs:w-[284px] max-w-[284px] h-[377px] mb-8 lg:mr-8 flex flex-col items-center text-center relative p-8">
                     <div>
                         <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
@@ -83,7 +83,7 @@
                     </div>
                 </div>
                 <div
-                    class="bg-blue text-white max-2xl:lg:w-[208px] max-lg:xxs:w-[284px] max-w-[284px] h-[377px] mb-8 sm:mr-8 flex flex-col items-center text-center relative p-8">
+                    class="bg-blue text-white max-2xl:lg:w-[200px] max-lg:xxs:w-[284px] max-w-[284px] h-[377px] mb-8 sm:mr-8 flex flex-col items-center text-center relative p-8">
                     <div>
                         <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
@@ -106,7 +106,7 @@
                     </div>
                 </div>
                 <div
-                    class="bg-blue text-white max-2xl:lg:w-[208px] max-lg:xxs:w-[284px] max-w-[284px] h-[377px] mb-8 lg:mr-8 flex flex-col items-center text-center relative p-8">
+                    class="bg-blue text-white max-2xl:lg:w-[200px] max-lg:xxs:w-[284px] max-w-[284px] h-[377px] mb-8 lg:mr-8 flex flex-col items-center text-center relative p-8">
                     <div>
                         <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
                             xmlns="http://www.w3.org/2000/svg">

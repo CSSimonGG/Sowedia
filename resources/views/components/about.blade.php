@@ -1,7 +1,7 @@
-<div class="bg-white w-full min-h-[494px]">
-    <div class="xl:ml-20 max-xl:mx-10 flex">
-        <div class="">
-            <h2 class="text-2xl font-bold pt-8">{{ __('nav.about') }}</h2>
+<div class="bg-white w-full">
+    <div class="xl:ml-20 max-xl:mx-10 py-10 flex xl:justify-center xl:space-x-44 max-xl:2md:justify-between flex-wrap">
+        <div class="max-w-[591px] mb-10">
+            <h2 class="text-2xl font-bold">{{ __('nav.about') }}</h2>
             <p class="mt-4">{{ __('about.about_text_first') }}</p>
             <p class="mt-4">{{ __('about.about_text_second') }}</p>
             <div class="mt-10">
@@ -12,7 +12,7 @@
             </div>
         </div>
         <div>
-            <img src="{{ asset('imgs/simon_foto.jpg') }}" alt="Simon" class="w-[227px]">
+            <img src="{{ asset('imgs/simon_foto.jpg') }}" alt="Simon" class="xxs:max-w-[227px]">
             <p class="mt-4"><b>Simon de Klerk</b> - CEO</p>
             <p><a href="mailto:simon@sowedia.com">Simon@sowedia.com</a></p>
         </div>

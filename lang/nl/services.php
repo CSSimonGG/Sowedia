@@ -6,5 +6,5 @@ return [
     "service_social_media_desc" => "Professionele hulp bij social media en adverteren voor uw bedrijf",
     "service_design_desc" => "Wij maken de beste, strakste, stijvolste website designs en logo's",
     "service_hosting_desc" => "Professionele webhosting en onderhoud voor uw website",
-    "service_other_desc" => "Naast het ontwerpen van websites en social media management bieden we nog veel meer diensten aan",
+    "service_other_desc" => "Naast het maken van websites en hulp bij social media bieden we nog veel meer diensten aan",
 ];
