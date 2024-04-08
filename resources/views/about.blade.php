@@ -3,6 +3,7 @@
         {{ __('nav.about') }}
     </x-slot:title>
     <div>
-        <h2>About</h2>
+        <x-about>
+        </x-about>
     </div>
 </x-app>

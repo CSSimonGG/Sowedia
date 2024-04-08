@@ -20,7 +20,7 @@
 
 <body class="font-inter">
     <x-header></x-header>
-    <main>
+    <main class="bg-white">
         {{ $slot }}
     </main>
     <x-footer></x-footer>
