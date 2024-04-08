@@ -139,11 +139,7 @@
             <h2 class="text-3xl font-bold py-8 flex justify-center">Portfolio</h2>
         </div>
     </div>
-    <div class="bg-white w-full min-h-[494px]">
-        <div class="xl:ml-20 max-xl:mx-10">
-            <h2 class="text-2xl font-bold pt-8">Over ons</h2>
-        </div>
-    </div>
+    <x-about></x-about>
     <div class="bg-blue text-white w-full min-h-[420px]">
         <div class="xl:ml-20 max-xl:mx-10">
             <h2 class="text-2xl font-bold pt-8">Reviews</h2>
