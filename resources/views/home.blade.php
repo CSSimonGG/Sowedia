@@ -145,9 +145,5 @@
             <h2 class="text-2xl font-bold pt-8">Reviews</h2>
         </div>
     </div>
-    <div class="bg-white w-full min-h-[768px]">
-        <div class="xl:ml-20 max-xl:mx-10">
-            <h2 class="text-2xl font-bold pt-8">Contact</h2>
-        </div>
-    </div>
+    <x-contact></x-contact>
 </x-app>

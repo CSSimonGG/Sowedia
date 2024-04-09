@@ -3,6 +3,6 @@
         {{ __('nav.contact') }}
     </x-slot:title>
     <div>
-        <h2>Contact</h2>
+        <x-contact></x-contact>
     </div>
 </x-app>
