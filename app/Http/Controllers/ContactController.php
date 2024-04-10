@@ -3,6 +3,9 @@
 namespace App\Http\Controllers;
 
 use App\Models\Contact;
+use App\Mail\ContactMail;
+use Illuminate\Support\Facades\Mail;
+use App\Http\Requests\ContactRequest;
 use App\Http\Requests\StoreContactRequest;
 use App\Http\Requests\UpdateContactRequest;
 
@@ -22,6 +25,15 @@ class ContactController extends Controller
         // Return contact page
         return view('contact');
     }
+
+    /**
+     * Send a contact email
+     */
+    public function submit(ContactRequest $request)
+    {
+        Mail::to('simon@sowedia.com')->send(new ContactMail($request->name, $request->company_name, $request->email, $request->phone, $request->contact_subject, $request->budget, $request->domainname_and_hosting, $request->corporate_identity, $request->message, ));
+    }
+
 
     /**
      * Show the form for creating a new resource.

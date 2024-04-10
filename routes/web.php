@@ -1,5 +1,6 @@
 <?php
 
+use App\Mail\ContactMail;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\AboutController;
@@ -92,3 +93,10 @@ Route::redirect('/portfolio/telecombinatie', '/nl/portfolio/telecombinatie'); //
 // CSR Summa College page
 Route::get('/{locale}/portfolio/csr-summa-college', [PortfolioController::class, 'summa']);
 Route::redirect('/portfolio/csr-summa-college', '/nl/portfolio/csr-summa-college'); // Redirect /portfolio/csr-summa-college to Dutch portfolio/csr-summa-college page
+
+// Mailing
+// Route::get('/contact/mail', function() {
+//     Mail::to('satmdeklerk@gmail.com')->send(new ContactMail());
+// });
+
+Route::post('/contact/mail', [ContactController::class, 'submit'])->name('contact.submit');
