@@ -4,7 +4,7 @@
         <p class="text-center">{{ __('contact.description_one') }}</p>
         <p class="text-center">{{ __('contact.description_two') }}</p>
         <div class="mt-16 mb-8">
-            <form method="POST" action="/contact/mail">
+            <form method="POST" action="/contact">
                 @csrf
                 <div class="lg:w-[954px] max-lg:md:w-[700px] max-md:xs:w-[400px]">
                     <div class="grid md:grid-cols-2 md:gap-4">

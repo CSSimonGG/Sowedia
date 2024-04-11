@@ -99,4 +99,4 @@ Route::redirect('/portfolio/csr-summa-college', '/nl/portfolio/csr-summa-college
 //     Mail::to('satmdeklerk@gmail.com')->send(new ContactMail());
 // });
 
-Route::post('/contact/mail', [ContactController::class, 'submit'])->name('contact.submit');
+Route::post('/contact', [ContactController::class, 'submit'])->name('contact.submit');

@@ -2,6 +2,7 @@
 
 namespace App\Http\Requests;
 
+use App\Rules\Recaptcha;
 use Illuminate\Foundation\Http\FormRequest;
 
 class ContactRequest extends FormRequest
@@ -21,6 +22,7 @@ class ContactRequest extends FormRequest
      */
     public function rules(): array
     {
+        // \Log::debug(print_r($this->all(), true));
         return [
             'name' => ['required'],
             'company_name' => [],
@@ -31,6 +33,7 @@ class ContactRequest extends FormRequest
             'domainname_and_hosting' => ['required'],
             'corporate_identity' => ['required'],
             'message' => ['required'],
+            'g-recaptcha-response' => ['required', new Recaptcha],
         ];
     }
 }
