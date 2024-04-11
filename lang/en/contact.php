@@ -2,7 +2,8 @@
 
 return [
     "title" => "Contact us",
-    "description" => "Do you want a professional website or social media? Contact us now!",
+    "description_one" => "Do you want a professional website or social media?",
+    "description_two" => "Contact us now!",
     "question_name" => "Name*",
     "error_name" => "",
     "question_company_name" => "Company name",

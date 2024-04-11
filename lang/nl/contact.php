@@ -2,7 +2,8 @@
 
 return [
     "title" => "Neem contact met ons op",
-    "description" => "Wilt u ook een professionele website of social media? Neem nu contact met ons op!",
+    "description_one" => "Wilt u ook een professionele website of social media?",
+    "description_two" => "Neem nu contact met ons op!",
     "question_name" => "Naam*",
     "error_name" => "",
     "question_company_name" => "Bedrijfs naam",

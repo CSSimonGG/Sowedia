@@ -12,8 +12,10 @@
     <!-- Favicon -->
     <link rel="icon" href="{{ asset('favicon.ico') }}">
 
-    <!-- CSS -->
+    <!-- CSS & JS -->
     @vite('resources/css/app.css')
+
+    <script src="https://www.google.com/recaptcha/enterprise.js" async defer></script>
 
     <title>Sowedia | {{ $title }}</title>
 </head>
