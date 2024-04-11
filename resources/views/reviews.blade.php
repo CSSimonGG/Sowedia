@@ -3,6 +3,7 @@
         {{ __('nav.reviews') }}
     </x-slot:title>
     <div>
-        <h2>Reviews</h2>
+        <x-reviews></x-reviews>
+        <x-contact></x-contact>
     </div>
 </x-app>
