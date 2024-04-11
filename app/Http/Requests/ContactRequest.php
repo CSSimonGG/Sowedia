@@ -25,9 +25,9 @@ class ContactRequest extends FormRequest
         // \Log::debug(print_r($this->all(), true));
         return [
             'name' => ['required'],
-            'company_name' => [],
+            'company_name' => ['required'],
             'email' => ['required', 'email'],
-            'phone' => [],
+            'phone' => ['required', 'numeric', 'min:8'],
             'contact_subject' => ['required'],
             'budget' => ['required'],
             'domainname_and_hosting' => ['required'],
