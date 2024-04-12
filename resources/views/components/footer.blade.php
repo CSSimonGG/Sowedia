@@ -112,13 +112,13 @@
                 </a>
             </li>
             <li class="hover:text-gray">
-                <a href="/{{ __('lang.lang') }}/services/design">
-                    {{ __('nav.service_design') }}
+                <a href="/{{ __('lang.lang') }}/services/social-media-management">
+                    {{ __('nav.service_social_media') }}
                 </a>
             </li>
             <li class="hover:text-gray">
-                <a href="/{{ __('lang.lang') }}/services/social-media-management">
-                    {{ __('nav.service_social_media') }}
+                <a href="/{{ __('lang.lang') }}/services/design">
+                    {{ __('nav.service_design') }}
                 </a>
             </li>
             <li class="hover:text-gray">
