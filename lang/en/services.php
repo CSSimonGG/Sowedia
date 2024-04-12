@@ -1,6 +1,9 @@
 <?php
 
 return [
+    "description" => "We specialize in creating and designing professional websites and web shops and managing your social media. You can find all our services below",
+    "to" => "To",
+    "no_projects" => "No projects yet",
     "service_website_desc" => "A professional website tailor-made with your own corporate identity",
     "service_webshops_desc" => "Start selling your own products through your own professional webshop",
     "service_social_media_desc" => "Professional help with social media and advertising for your company",

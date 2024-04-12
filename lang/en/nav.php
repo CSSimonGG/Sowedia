@@ -14,7 +14,7 @@ return [
     "service_webshops" => "Webshops",
     "service_social_media" => "Social media management",
     "service_design" => "Design",
-    "service_hosting" => "Hosting",
+    "service_hosting" => "Hosting & maintenance",
     "service_other" => "Other services",
     "street" => "Broekkant 93",
     "place" => "6021 CS, Budel",
