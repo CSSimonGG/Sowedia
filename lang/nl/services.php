@@ -1,7 +1,7 @@
 <?php
 
 return [
-    "description" => "Wij zijn gespecialiseerd in onder andere het maken en designen van professionele websites en webshops en het managen van uw social media. Hieronder kunt u al onze diensten vinden",
+    "description" => "Wij zijn gespecialiseerd in onder andere het maken en designen van professionele websites en webshops en het managen van uw social media. Hieronder kunt u al onze diensten vinden.",
     "to" => "Naar",
     "no_projects" => "Nog geen projecten",
     "projects" => "Projecten",

@@ -1,7 +1,7 @@
 <?php
 
 return [
-    "description" => "We specialize in creating and designing professional websites and web shops and managing your social media. You can find all our services below",
+    "description" => "We specialize in creating and designing professional websites and web shops and managing your social media. You can find all our services below.",
     "to" => "To",
     "no_projects" => "No projects yet",
     "projects" => "Projects",
