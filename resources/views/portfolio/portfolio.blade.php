@@ -13,7 +13,7 @@
                     <div class="my-4 flex flex-wrap">
                         <a href="/{{ __('lang.lang') }}/portfolio/sowedia">
                             <div class="mr-8 mt-8">
-                                <div class="xl:w-[348px] max-xl:w-[300px] shadow-xl"><img
+                                <div class="xl:w-[348px] max-xl:w-[240px] shadow-xl"><img
                                         src="{{ asset('imgs/sowedia.png') }}" alt="Sowedia">
                                 </div>
                                 <p class="mt-2">Sowedia website</p>
@@ -21,7 +21,7 @@
                         </a>
                         <a href="/{{ __('lang.lang') }}/portfolio/csr-summa-college">
                             <div class="mr-8 mt-8">
-                                <div class="xl:w-[348px] max-xl:w-[300px] shadow-xl"><img
+                                <div class="xl:w-[348px] max-xl:w-[240px] shadow-xl"><img
                                         src="{{ asset('imgs/csr.png') }}" alt="Sowedia">
                                 </div>
                                 <p class="mt-2">CSR Summa College Social Media</p>
@@ -29,7 +29,7 @@
                         </a>
                         <a href="/{{ __('lang.lang') }}/portfolio/telecombinatie">
                             <div class="mr-8 mt-8">
-                                <div class="xl:w-[348px] max-xl:w-[300px] shadow-xl"><img
+                                <div class="xl:w-[348px] max-xl:w-[240px] shadow-xl"><img
                                         src="{{ asset('imgs/telecombinatie.png') }}" alt="Sowedia">
                                 </div>
                                 <p class="mt-2">Telecombinatie Budel Social Media</p>
