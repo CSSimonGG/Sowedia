@@ -3,6 +3,6 @@
         {{ __('nav.terms') }}
     </x-slot:title>
     <div>
-        <h2>Terms</h2>
+        <h1>Terms</h1>
     </div>
 </x-app>

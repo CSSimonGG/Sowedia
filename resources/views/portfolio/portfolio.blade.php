@@ -3,7 +3,9 @@
         {{ __('nav.portfolio') }}
     </x-slot:title>
     <div>
-        <h2>Portfolio</h2>
+        <div>
+            <h1>Portfolio</h1>
+        </div>
         <x-reviews></x-reviews>
         <x-contact></x-contact>
     </div>

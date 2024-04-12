@@ -3,6 +3,6 @@
         {{ __('nav.privacy') }}
     </x-slot:title>
     <div>
-        <h2>Privacy</h2>
+        <h1>Privacy</h1>
     </div>
 </x-app>
