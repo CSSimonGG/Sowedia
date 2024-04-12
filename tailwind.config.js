@@ -43,7 +43,7 @@ export default {
             // => @media (min-width: 1280px) { ... }
 
             "2xl": "1361px",
-            // => @media (min-width: 1344px) { ... }
+            // => @media (min-width: 1361px) { ... }
         },
     },
     plugins: [],

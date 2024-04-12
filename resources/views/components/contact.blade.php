@@ -6,7 +6,7 @@
         <div class="mt-16 mb-8">
             <form method="POST" action="/">
                 @csrf
-                <div class="lg:w-[954px] max-lg:md:w-[700px] max-md:xs:w-[400px]">
+                <div class="lg:w-[954px] max-lg:md:w-[700px] max-md:xs:w-[400px] max-xs:w-[320px]">
                     <div class="grid md:grid-cols-2 md:gap-4">
                         <div class="flex flex-col">
                             <input type="text" placeholder="{{ __('contact.question_name') }}" name="name"
