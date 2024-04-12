@@ -137,6 +137,47 @@
     <div class="bg-blue text-white w-full min-h-[534px]">
         <div class="xl:ml-20 max-xl:mx-10">
             <h2 class="text-3xl font-bold py-8 flex justify-center">Portfolio</h2>
+            <div class="my-4 flex space-x-8 overflow-auto">
+                <a href="/{{ __('lang.lang') }}/portfolio/sowedia">
+                    <div>
+                        <div class="md:w-[348px] max-md:xs:w-[300px] max-xs:w-[240px] shadow-xl"><img
+                                src="{{ asset('imgs/sowedia.png') }}" alt="Sowedia">
+                        </div>
+                        <p class="mt-2">Sowedia website</p>
+                    </div>
+                </a>
+                <a href="/{{ __('lang.lang') }}/portfolio/csr-summa-college">
+                    <div>
+                        <div class="md:w-[348px] max-md:xs:w-[300px] max-xs:w-[240px] shadow-xl"><img
+                                src="{{ asset('imgs/csr.png') }}" alt="Sowedia">
+                        </div>
+                        <p class="mt-2">CSR Summa College Social Media</p>
+                    </div>
+                </a>
+                <a href="/{{ __('lang.lang') }}/portfolio/telecombinatie">
+                    <div>
+                        <div class="md:w-[348px] max-md:xs:w-[300px] max-xs:w-[240px] shadow-xl"><img
+                                src="{{ asset('imgs/telecombinatie.png') }}" alt="Sowedia">
+                        </div>
+                        <p class="mt-2">Telecombinatie Budel Social Media</p>
+                    </div>
+                </a>
+            </div>
+            <a href="/{{ __('lang.lang') }}/portfolio">
+                <div class="flex space-x-1 justify-end py-10 xl:mx-20">
+                    <p>{{ __('portfolio.more_projects') }}</p>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+                            stroke="#F8FBFD" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M8.5 12H14.5" stroke="#F8FBFD" stroke-width="1.5" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M12.5 15L15.5 12L12.5 9" stroke="#F8FBFD" stroke-width="1.5" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                </div>
+            </a>
         </div>
     </div>
     <x-about></x-about>

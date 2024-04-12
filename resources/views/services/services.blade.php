@@ -33,7 +33,7 @@
                         <div class="my-4 flex overflow-auto">
                             <a href="/{{ __('lang.lang') }}/portfolio/sowedia">
                                 <div>
-                                    <div class="md:w-[348px] max-md:xs:w-[300px] max-xs:w-[240px]"><img
+                                    <div class="md:w-[348px] max-md:xs:w-[300px] max-xs:w-[240px] shadow-xl"><img
                                             src="{{ asset('imgs/sowedia.png') }}" alt="Sowedia">
                                     </div>
                                     <p class="mt-2">Sowedia website</p>
@@ -93,7 +93,7 @@
                         <div class="my-4 flex space-x-8 overflow-auto">
                             <a href="/{{ __('lang.lang') }}/portfolio/telecombinatie">
                                 <div>
-                                    <div class="md:w-[348px] max-md:xs:w-[300px] max-xs:w-[240px]"><img
+                                    <div class="md:w-[348px] max-md:xs:w-[300px] max-xs:w-[240px] shadow-xl"><img
                                             src="{{ asset('imgs/telecombinatie.png') }}" alt="Sowedia">
                                     </div>
                                     <p class="mt-2">Telecombinatie Budel Social Media</p>
@@ -101,7 +101,7 @@
                             </a>
                             <a href="/{{ __('lang.lang') }}/portfolio/csr-summa-college">
                                 <div>
-                                    <div class="md:w-[348px] max-md:xs:w-[300px] max-xs:w-[240px]"><img
+                                    <div class="md:w-[348px] max-md:xs:w-[300px] max-xs:w-[240px] shadow-xl"><img
                                             src="{{ asset('imgs/csr.png') }}" alt="Sowedia">
                                     </div>
                                     <p class="mt-2">CSR Summa College Social Media</p>
@@ -133,7 +133,7 @@
                         <div class="my-4 flex space-x-8 overflow-auto">
                             <a href="/{{ __('lang.lang') }}/portfolio/csr-summa-college">
                                 <div>
-                                    <div class="md:w-[348px] max-md:xs:w-[300px] max-xs:w-[240px]"><img
+                                    <div class="md:w-[348px] max-md:xs:w-[300px] max-xs:w-[240px] shadow-xl"><img
                                             src="{{ asset('imgs/csr.png') }}" alt="Sowedia">
                                     </div>
                                     <p class="mt-2">CSR Summa College Social Media</p>
@@ -141,7 +141,7 @@
                             </a>
                             <a href="/{{ __('lang.lang') }}/portfolio/sowedia">
                                 <div>
-                                    <div class="md:w-[348px] max-md:xs:w-[300px] max-xs:w-[240px]"><img
+                                    <div class="md:w-[348px] max-md:xs:w-[300px] max-xs:w-[240px] shadow-xl"><img
                                             src="{{ asset('imgs/sowedia.png') }}" alt="Sowedia">
                                     </div>
                                     <p class="mt-2">Sowedia website</p>
@@ -173,7 +173,7 @@
                         <div class="my-4 flex overflow-auto">
                             <a href="/{{ __('lang.lang') }}/portfolio/sowedia">
                                 <div>
-                                    <div class="md:w-[348px] max-md:xs:w-[300px] max-xs:w-[240px]"><img
+                                    <div class="md:w-[348px] max-md:xs:w-[300px] max-xs:w-[240px] shadow-xl"><img
                                             src="{{ asset('imgs/sowedia.png') }}" alt="Sowedia">
                                     </div>
                                     <p class="mt-2">Sowedia website</p>
