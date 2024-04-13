@@ -17,7 +17,7 @@
         <div class="max-xl:lg:mr-10 max-lg:my-4 max-lg:mx-10">
             <img src="{{ asset('imgs/sowedia_web_development.png') }}" alt="Sowedia" class="sm:w-[500px] max-sm:w-full">
         </div>
-        <div class="absolute lg:bottom-48 max-lg:bottom-10 right-1/2">
+        <div class="absolute lg:bottom-48 max-lg:bottom-10 right-1/2 z-20">
             <div class="scroll-prompt" scroll-prompt="" ng-show="showPrompt" style="opacity: 1;">
                 <div class="scroll-prompt-arrow-container">
                     <div class="scroll-prompt-arrow">
