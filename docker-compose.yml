@@ -1,12 +1,16 @@
 version: "3.8"
 services:
-    # Database server
-    database:
-        image: mysql:8.0
+    # PHP Service
+    php:
+        build:
+            context: .
+            target: php
+            args:
+                - APP_ENV=${APP_ENV}
+        environment:
+            - APP_ENV=${APP_ENV}
+            - CONTAINER_ROLE=app
+        working_dir: /var/www
+        volumes: -./:/var/www
         ports:
-            - 3306:3306
-        volumes:
-            - db-data:/var/lib/mysql
-
-volumes:
-    db-data: ~
+            - "5005:5005"
