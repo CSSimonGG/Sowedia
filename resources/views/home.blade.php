@@ -3,7 +3,7 @@
         {{ __('lang.title') }}
     </x-slot:title>
     <div
-        class="bg-blue text-white w-full max-lg:min-h-[850px] lg:min-h-[600px] h-screen flex xl:justify-center xl:space-x-44 max-xl:lg:justify-between max-lg:flex-col max-lg:items-center">
+        class="relative bg-blue text-white w-full max-lg:min-h-[850px] lg:min-h-[600px] h-screen flex xl:justify-center xl:space-x-44 max-xl:lg:justify-between max-lg:flex-col max-lg:items-center">
         <div class="sm:w-[450px] xl:ml-20 max-xl:mx-10 lg:pt-[116px]">
             <h1 class="sm:text-5xl max-sm:text-3xl font-bold">{{ __('home.title') }}</h1>
             <p class="sm:text-xl max-sm:text-lg mt-4">{{ __('home.description') }}</p>
@@ -16,6 +16,18 @@
         </div>
         <div class="max-xl:lg:mr-10 max-lg:my-4 max-lg:mx-10">
             <img src="{{ asset('imgs/sowedia_web_development.png') }}" alt="Sowedia" class="sm:w-[500px] max-sm:w-full">
+        </div>
+        <div class="absolute lg:bottom-48 max-lg:bottom-10 right-1/2">
+            <div class="scroll-prompt" scroll-prompt="" ng-show="showPrompt" style="opacity: 1;">
+                <div class="scroll-prompt-arrow-container">
+                    <div class="scroll-prompt-arrow">
+                        <div></div>
+                    </div>
+                    <div class="scroll-prompt-arrow">
+                        <div></div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <div class="bg-white w-full min-h-[512px]">
@@ -93,7 +105,8 @@
                                 stroke-linejoin="round" />
                             <path
                                 d="M20.4667 24.9337C20.2167 25.017 19.8 25.017 19.5333 24.9337C17.3667 24.1837 12.5 21.1003 12.5 15.8503C12.5 13.5337 14.3667 11.667 16.6667 11.667C18.0333 11.667 19.2333 12.317 20 13.3337C20.7667 12.317 21.9667 11.667 23.3333 11.667C25.6333 11.667 27.5 13.5337 27.5 15.8503C27.4833 21.1003 22.6333 24.1837 20.4667 24.9337Z"
-                                stroke="#F8FBFD" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                stroke="#F8FBFD" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
                         </svg>
                     </div>
                     <h3 class="font-bold text-xl mt-3">{{ __('nav.service_social_media') }}</h3>
