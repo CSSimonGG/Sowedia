@@ -2,7 +2,7 @@
     <div class="xl:ml-20 max-xl:mx-10 flex pb-16 max-xs:flex-wrap">
         <div class="2xl:w-1/3 min-w-[160px] pt-16">
             <div class="">
-                <img src="{{ asset('imgs/sowedia_logo.png') }}" alt="Sowedia" class="w-[150px]">
+                <img src="{{ asset('imgs/sowedia_logo.webp') }}" alt="Sowedia" class="w-[150px]">
             </div>
             <p class="text-gray text-sm mt-4 ml-1">There are no reviews yet</p>
             <p class="ml-1">Powered by Google Reviews</p>

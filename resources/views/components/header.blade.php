@@ -1,38 +1,38 @@
 <header class="sticky top-0 z-50">
     <div class="bg-blue h-[120px] flex items-center place-content-center">
         <div class="absolute xl:left-20 left-10">
-            <a href="/{{ __('lang.lang') }}/home"><img src="{{ asset('imgs/sowedia_logo.png') }}" alt="Sowedia"
+            <a href="/{{ __('lang.lang') }}/home"><img src="{{ asset('imgs/sowedia_logo.webp') }}" alt="Sowedia"
                     class="w-[150px]"></a>
         </div>
         <nav class="max-lg:hidden flex">
             <ul class="flex text-white text-xl font-bold space-x-9">
                 <li class="hover:text-gray">
-                    <a tabindex="1" href="/{{ __('lang.lang') }}/home" id="home-link">
+                    <a href="/{{ __('lang.lang') }}/home" id="home-link">
                         {{ __('nav.home') }}
                     </a>
                 </li>
                 <li class="hover:text-gray">
-                    <a tabindex="2" href="/{{ __('lang.lang') }}/services" id="services-link">
+                    <a href="/{{ __('lang.lang') }}/services" id="services-link">
                         {{ __('nav.services') }}
                     </a>
                 </li>
                 <li class="hover:text-gray">
-                    <a tabindex="3" href="/{{ __('lang.lang') }}/portfolio" id="portfolio-link">
+                    <a href="/{{ __('lang.lang') }}/portfolio" id="portfolio-link">
                         {{ __('nav.portfolio') }}
                     </a>
                 </li>
                 <li class="hover:text-gray">
-                    <a tabindex="4" href="/{{ __('lang.lang') }}/about" id="about-link">
+                    <a href="/{{ __('lang.lang') }}/about" id="about-link">
                         {{ __('nav.about') }}
                     </a>
                 </li>
                 <li class="hover:text-gray">
-                    <a tabindex="5" href="/{{ __('lang.lang') }}/reviews" id="reviews-link">
+                    <a href="/{{ __('lang.lang') }}/reviews" id="reviews-link">
                         {{ __('nav.reviews') }}
                     </a>
                 </li>
                 <li class="mt-1.5">
-                    <a tabindex="6" href="/{{ __('lang.change_to') }}/home">
+                    <a href="/{{ __('lang.change_to') }}/home">
                         <img src="{{ asset('imgs/' . __('lang.flag')) }}" alt="{{ __('lang.flag_alt') }}"
                             class="w-[30px]">
                     </a>
@@ -40,7 +40,7 @@
             </ul>
         </nav>
         <div class="absolute right-0 max-lg:hidden">
-            <a tabindex="7" href="/{{ __('lang.lang') }}/contact"
+            <a href="/{{ __('lang.lang') }}/contact"
                 class="text-xl font-bold text-black bg-orange px-9 py-4 xl:mr-20 mr-10 rounded-full">
                 {{ __('nav.contact') }}
             </a>
@@ -65,32 +65,32 @@
         <nav class="max-md:ml-10 md:flex md:justify-center">
             <ul class="text-white text-xl font-bold space-y-4">
                 <li class="hover:text-gray">
-                    <a tabindex="1" href="/{{ __('lang.lang') }}/home">
+                    <a href="/{{ __('lang.lang') }}/home">
                         {{ __('nav.home') }}
                     </a>
                 </li>
                 <li class="hover:text-gray">
-                    <a tabindex="2" href="/{{ __('lang.lang') }}/services">
+                    <a href="/{{ __('lang.lang') }}/services">
                         {{ __('nav.services') }}
                     </a>
                 </li>
                 <li class="hover:text-gray">
-                    <a tabindex="3" href="/{{ __('lang.lang') }}/portfolio">
+                    <a href="/{{ __('lang.lang') }}/portfolio">
                         {{ __('nav.portfolio') }}
                     </a>
                 </li>
                 <li class="hover:text-gray">
-                    <a tabindex="4" href="/{{ __('lang.lang') }}/about">
+                    <a href="/{{ __('lang.lang') }}/about">
                         {{ __('nav.about') }}
                     </a>
                 </li>
                 <li class="hover:text-gray">
-                    <a tabindex="5" href="/{{ __('lang.lang') }}/reviews">
+                    <a href="/{{ __('lang.lang') }}/reviews">
                         {{ __('nav.reviews') }}
                     </a>
                 </li>
                 <li class="hover:text-gray">
-                    <a tabindex="6" href="/{{ __('lang.lang') }}/contact">
+                    <a href="/{{ __('lang.lang') }}/contact">
                         {{ __('nav.contact') }}
                     </a>
                 </li>
@@ -99,7 +99,7 @@
         <div class="text-white xs:flex ml-10 mt-20 max-md:xs:space-x-8">
             <ul class="flex space-x-1 max-lg:md:w-3/4">
                 <li>
-                    <a href="https://www.instagram.com/sowediaofficial/" target="_blank">
+                    <a href="https://www.instagram.com/sowediaofficial/" aria-label="Sowedia Instagram" target="_blank">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z"
@@ -113,7 +113,7 @@
                     </a>
                 </li>
                 <li class="px-1 pt-0.5">
-                    <a href="https://www.linkedin.com/company/sowedia" target="_blank">
+                    <a href="https://www.linkedin.com/company/sowedia" aria-label="Sowedia LinkedIn" target="_blank">
                         <svg width="21" height="20" viewBox="0 0 21 20" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -123,7 +123,8 @@
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.facebook.com/people/Sowedia/61557707923130/" target="_blank">
+                    <a href="https://www.facebook.com/people/Sowedia/61557707923130/" aria-label="Sowedia Facebook"
+                        target="_blank">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path

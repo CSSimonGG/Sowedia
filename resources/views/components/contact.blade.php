@@ -40,15 +40,20 @@
                             @enderror
                             <select name="budget" id="budget"
                                 class="md:mt-[5px] border-b border-gray bg-white focus:outline-none focus:border-orange mb-4 p-2">
-                                <option value="{{ __('contact.question_budget') }}" selected>
+                                <option value="{{ __('contact.question_budget') }}"
+                                    aria-label="{{ __('contact.question_budget') }}" selected>
                                     {{ __('contact.question_budget') }}</option>
-                                <option value="{{ __('contact.budget_option_1') }}">
+                                <option value="{{ __('contact.budget_option_1') }}"
+                                    aria-label="{{ __('contact.budget_option_1') }}">
                                     {{ __('contact.budget_option_1') }}</option>
-                                <option value="{{ __('contact.budget_option_2') }}">
+                                <option value="{{ __('contact.budget_option_2') }}"
+                                    aria-label="{{ __('contact.budget_option_2') }}">
                                     {{ __('contact.budget_option_2') }}</option>
-                                <option value="{{ __('contact.budget_option_3') }}">
+                                <option value="{{ __('contact.budget_option_3') }}"
+                                    aria-label="{{ __('contact.budget_option_3') }}">
                                     {{ __('contact.budget_option_3') }}</option>
-                                <option value="{{ __('contact.budget_option_4') }}">
+                                <option value="{{ __('contact.budget_option_4') }}"
+                                    aria-label="{{ __('contact.budget_option_4') }}">
                                     {{ __('contact.budget_option_4') }}</option>
                             </select>
                             @error('budget')
@@ -59,11 +64,14 @@
                     <div class="flex flex-col md:gap-4">
                         <select name="domainname_and_hosting" id="domainname_and_hosting"
                             class="md:mt-[5px] border-b border-gray bg-white focus:outline-none focus:border-orange mb-4 p-2">
-                            <option value="{{ __('contact.question_domainname_and_hosting') }}" selected>
+                            <option value="{{ __('contact.question_domainname_and_hosting') }}"
+                                aria-label="{{ __('contact.question_domainname_and_hosting') }}" selected>
                                 {{ __('contact.question_domainname_and_hosting') }}</option>
-                            <option value="{{ __('contact.domainname_and_hosting_option_1') }}">
+                            <option value="{{ __('contact.domainname_and_hosting_option_1') }}"
+                                aria-label="{{ __('contact.domainname_and_hosting_option_1') }}">
                                 {{ __('contact.domainname_and_hosting_option_1') }}</option>
-                            <option value="{{ __('contact.domainname_and_hosting_option_2') }}">
+                            <option value="{{ __('contact.domainname_and_hosting_option_2') }}"
+                                aria-label="{{ __('contact.domainname_and_hosting_option_2') }}">
                                 {{ __('contact.domainname_and_hosting_option_2') }}</option>
                         </select>
                         @error('domainname_and_hosting')
@@ -71,15 +79,20 @@
                         @enderror
                         <select name="corporate_identity" id="corporate_identity"
                             class="md:mt-[5px] border-b border-gray bg-white focus:outline-none focus:border-orange mb-4 p-2">
-                            <option value="{{ __('contact.question_corporate_identity') }}" selected>
+                            <option value="{{ __('contact.question_corporate_identity') }}"
+                                aria-label="{{ __('contact.question_corporate_identity') }}" selected>
                                 {{ __('contact.question_corporate_identity') }}</option>
-                            <option value="{{ __('contact.corporate_identity_option_1') }}">
+                            <option value="{{ __('contact.corporate_identity_option_1') }}"
+                                aria-label="{{ __('contact.corporate_identity_option_1') }}">
                                 {{ __('contact.corporate_identity_option_1') }}</option>
-                            <option value="{{ __('contact.corporate_identity_option_2') }}">
+                            <option value="{{ __('contact.corporate_identity_option_2') }}"
+                                aria-label="{{ __('contact.corporate_identity_option_2') }}">
                                 {{ __('contact.corporate_identity_option_2') }}</option>
-                            <option value="{{ __('contact.corporate_identity_option_3') }}">
+                            <option value="{{ __('contact.corporate_identity_option_3') }}"
+                                aria-label="{{ __('contact.corporate_identity_option_3') }}">
                                 {{ __('contact.corporate_identity_option_3') }}</option>
-                            <option value="{{ __('contact.corporate_identity_option_4') }}">
+                            <option value="{{ __('contact.corporate_identity_option_4') }}"
+                                aria-label="{{ __('contact.corporate_identity_option_4') }}">
                                 {{ __('contact.corporate_identity_option_4') }}</option>
                         </select>
                         @error('corporate_identity')

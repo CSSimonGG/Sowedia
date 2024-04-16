@@ -11,7 +11,7 @@
             <div class="2xl:w-[1200px] max-2xl:w-full mt-16">
                 <a href="https://www.instagram.com/telecombinatie_budel/" target="blank">
                     <div class="max-w-[800px]">
-                        <img src="{{ asset('imgs/telecombinatie_project.png') }}" alt="CSR Summa College Instagram">
+                        <img src="{{ asset('imgs/telecombinatie_project.webp') }}" alt="CSR Summa College Instagram">
                     </div>
                 </a>
             </div>

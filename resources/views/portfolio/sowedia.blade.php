@@ -12,9 +12,9 @@
                 <div class="2xl:w-[1200px] max-2xl:w-full mt-16">
                     <div class="2xl:w-[1200px]">
                         <h2 class="font-bold text-2xl mb-4">{{ __('portfolio.sowedia_sketch_text') }}</h2>
-                        <img src="{{ asset('imgs/sowedia_lofi.png') }}" alt="Sowedia LoFi design">
+                        <img src="{{ asset('imgs/sowedia_lofi.webp') }}" alt="Sowedia LoFi design">
                         <h2 class="font-bold text-2xl mb-4 mt-8">{{ __('portfolio.sowedia_design_text') }}</h2>
-                        <img src="{{ asset('imgs/sowedia_project_home.png') }}" alt="Sowedia HiFi design">
+                        <img src="{{ asset('imgs/sowedia_project_home.webp') }}" alt="Sowedia HiFi design">
                     </div>
                 </div>
             </div>

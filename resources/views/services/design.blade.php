@@ -18,7 +18,7 @@
                             <a href="/{{ __('lang.lang') }}/portfolio/csr-summa-college">
                                 <div>
                                     <div class="md:w-[348px] max-md:xs:w-[300px] max-xs:w-[240px] shadow-xl"><img
-                                            src="{{ asset('imgs/csr.png') }}" alt="Sowedia">
+                                            src="{{ asset('imgs/csr.webp') }}" alt="Sowedia">
                                     </div>
                                     <p class="mt-2">CSR Summa College Social Media</p>
                                 </div>
@@ -26,7 +26,7 @@
                             <a href="/{{ __('lang.lang') }}/portfolio/sowedia">
                                 <div>
                                     <div class="md:w-[348px] max-md:xs:w-[300px] max-xs:w-[240px] shadow-xl"><img
-                                            src="{{ asset('imgs/sowedia.png') }}" alt="Sowedia">
+                                            src="{{ asset('imgs/sowedia.webp') }}" alt="Sowedia">
                                     </div>
                                     <p class="mt-2">Sowedia website</p>
                                 </div>

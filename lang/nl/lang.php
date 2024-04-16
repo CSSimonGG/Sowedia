@@ -3,6 +3,6 @@
 return [
     "lang" => "nl",
     "title" => "Web development en social media management agency",
-    "flag" => "nl_flag.png",
+    "flag" => "uk_flag.webp",
     "change_to" => "en",
 ];

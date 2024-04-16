@@ -11,7 +11,7 @@
                 </div>
                 <div class="2xl:w-[1200px] max-2xl:w-full mt-16">
                     <div class="max-w-[500px]">
-                        <img src="{{ asset('imgs/csr_project.png') }}" alt="CSR Summa College Instagram">
+                        <img src="{{ asset('imgs/csr_project.webp') }}" alt="CSR Summa College Instagram">
                     </div>
                 </div>
             </div>

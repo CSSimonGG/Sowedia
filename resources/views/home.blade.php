@@ -8,14 +8,14 @@
             <h1 class="sm:text-5xl max-sm:text-3xl font-bold">{{ __('home.title') }}</h1>
             <p class="sm:text-xl max-sm:text-lg mt-4">{{ __('home.description') }}</p>
             <div class="mt-10">
-                <a tabindex="8" href="/{{ __('lang.lang') }}/services/"
+                <a href="/{{ __('lang.lang') }}/services/"
                     class="text-xl font-bold text-black bg-orange px-9 py-4 rounded-full">
                     {{ __('nav.services') }}
                 </a>
             </div>
         </div>
         <div class="max-xl:lg:mr-10 max-lg:my-4 max-lg:mx-10">
-            <img src="{{ asset('imgs/sowedia_web_development.png') }}" alt="Sowedia" class="sm:w-[500px] max-sm:w-full">
+            <img src="{{ asset('imgs/sowedia_web_development.webp') }}" alt="Sowedia" class="sm:w-[500px] max-sm:w-full">
         </div>
         <div class="absolute lg:bottom-48 max-lg:bottom-10 right-1/2 z-20">
             <div class="scroll-prompt" scroll-prompt="" ng-show="showPrompt" style="opacity: 1;">
@@ -154,7 +154,7 @@
                 <a href="/{{ __('lang.lang') }}/portfolio/sowedia">
                     <div>
                         <div class="md:w-[348px] max-md:xs:w-[300px] max-xs:w-[240px] shadow-xl"><img
-                                src="{{ asset('imgs/sowedia.png') }}" alt="Sowedia">
+                                src="{{ asset('imgs/sowedia.webp') }}" alt="Sowedia">
                         </div>
                         <p class="mt-2">Sowedia website</p>
                     </div>
@@ -162,7 +162,7 @@
                 <a href="/{{ __('lang.lang') }}/portfolio/csr-summa-college">
                     <div>
                         <div class="md:w-[348px] max-md:xs:w-[300px] max-xs:w-[240px] shadow-xl"><img
-                                src="{{ asset('imgs/csr.png') }}" alt="Sowedia">
+                                src="{{ asset('imgs/csr.webp') }}" alt="Sowedia">
                         </div>
                         <p class="mt-2">CSR Summa College Social Media</p>
                     </div>
@@ -170,7 +170,7 @@
                 <a href="/{{ __('lang.lang') }}/portfolio/telecombinatie">
                     <div>
                         <div class="md:w-[348px] max-md:xs:w-[300px] max-xs:w-[240px] shadow-xl"><img
-                                src="{{ asset('imgs/telecombinatie.png') }}" alt="Sowedia">
+                                src="{{ asset('imgs/telecombinatie.webp') }}" alt="Sowedia">
                         </div>
                         <p class="mt-2">Telecombinatie Budel Social Media</p>
                     </div>
