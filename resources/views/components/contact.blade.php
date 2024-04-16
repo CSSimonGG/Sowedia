@@ -38,7 +38,7 @@
                             @error('contact_subject')
                                 <span class="text-red">{{ $message }}</span>
                             @enderror
-                            <select name="budget" id="budget"
+                            <select name="budget" aria-label="budget" id="budget"
                                 class="md:mt-[5px] border-b border-gray bg-white focus:outline-none focus:border-orange mb-4 p-2">
                                 <option value="{{ __('contact.question_budget') }}"
                                     aria-label="{{ __('contact.question_budget') }}" selected>
@@ -62,7 +62,8 @@
                         </div>
                     </div>
                     <div class="flex flex-col md:gap-4">
-                        <select name="domainname_and_hosting" id="domainname_and_hosting"
+                        <select name="domainname_and_hosting" aria-label="domainname_and_hosting"
+                            id="domainname_and_hosting"
                             class="md:mt-[5px] border-b border-gray bg-white focus:outline-none focus:border-orange mb-4 p-2">
                             <option value="{{ __('contact.question_domainname_and_hosting') }}"
                                 aria-label="{{ __('contact.question_domainname_and_hosting') }}" selected>
@@ -77,7 +78,7 @@
                         @error('domainname_and_hosting')
                             <span class="text-red">{{ $message }}</span>
                         @enderror
-                        <select name="corporate_identity" id="corporate_identity"
+                        <select name="corporate_identity" aria-label="corporate_identity" id="corporate_identity"
                             class="md:mt-[5px] border-b border-gray bg-white focus:outline-none focus:border-orange mb-4 p-2">
                             <option value="{{ __('contact.question_corporate_identity') }}"
                                 aria-label="{{ __('contact.question_corporate_identity') }}" selected>
