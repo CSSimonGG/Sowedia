@@ -35,7 +35,7 @@
 
 <body class="font-inter">
     <x-header></x-header>
-    <main class="bg-white">
+    <main class="bg-white  h-screen">
         {{ $slot }}
     </main>
     <x-footer></x-footer>
