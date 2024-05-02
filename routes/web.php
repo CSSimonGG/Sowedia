@@ -44,7 +44,7 @@ Route::redirect('/terms-and-conditions', '/nl/terms-and-conditions'); // Redirec
 Route::redirect('/algemenevoorwaarden', '/nl/terms-and-conditions'); // Redirect /terms-and-conditions to Dutch terms and conditions page
 
 // Privacy page
-Route::get('/{locale}/privacy', [PrivacyController::class, 'index']);
+Route::redirect('/{locale}/privacy', 'https://www.iubenda.com/privacy-policy/47577517/legal?an=no&s_ck=false&newmarkup=yes');
 Route::redirect('/privacy', '/nl/privacy'); // Redirect /privacy to Dutch privacy page
 
 /**
