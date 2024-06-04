@@ -61,7 +61,7 @@
                 <p>{{ __('nav.country') }}</p>
             </li>
             <li>
-                <p>KvK nummer</p>
+                <p>KvK: 94040494</p>
             </li>
             <li class="hover:text-gray">
                 <a href="/{{ __('lang.lang') }}/terms-and-conditions">
