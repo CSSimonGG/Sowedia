@@ -41,9 +41,10 @@ Route::redirect('/reviews', '/nl/reviews'); // Redirect /reviews to Dutch review
 // Terms page
 Route::get('/{locale}/terms-and-conditions', [TermsController::class, 'index']);
 Route::redirect('/terms-and-conditions', '/nl/terms-and-conditions'); // Redirect /terms-and-conditions to Dutch terms and conditions page
+Route::redirect('/algemenevoorwaarden', '/nl/terms-and-conditions'); // Redirect /terms-and-conditions to Dutch terms and conditions page
 
 // Privacy page
-Route::get('/{locale}/privacy', [PrivacyController::class, 'index']);
+Route::redirect('/{locale}/privacy', 'https://www.iubenda.com/privacy-policy/47577517/legal?an=no&s_ck=false&newmarkup=yes');
 Route::redirect('/privacy', '/nl/privacy'); // Redirect /privacy to Dutch privacy page
 
 /**

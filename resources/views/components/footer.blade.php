@@ -69,7 +69,8 @@
                 </a>
             </li>
             <li class="hover:text-gray">
-                <a href="/{{ __('lang.lang') }}/privacy">
+                <a href="https://www.iubenda.com/privacy-policy/47577517/legal?an=no&s_ck=false&newmarkup=yes"
+                    target="_blank">
                     {{ __('nav.privacy') }}
                 </a>
             </li>

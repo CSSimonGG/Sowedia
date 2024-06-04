@@ -12,6 +12,37 @@
     <!-- Favicon -->
     <link rel="icon" href="{{ asset('favicon.ico') }}">
 
+    <!-- Privacy and cookies -->
+    <script type="text/javascript">
+        var _iub = _iub || [];
+        _iub.csConfiguration = {
+            "askConsentAtCookiePolicyUpdate": true,
+            "enableFadp": true,
+            "enableLgpd": true,
+            "enableUspr": true,
+            "fadpApplies": true,
+            "floatingPreferencesButtonDisplay": "bottom-right",
+            "lang": "en",
+            "perPurposeConsent": true,
+            "siteId": 3619378,
+            "usprApplies": true,
+            "whitelabel": false,
+            "cookiePolicyId": 47577517,
+            "banner": {
+                "acceptButtonDisplay": true,
+                "closeButtonDisplay": false,
+                "customizeButtonDisplay": true,
+                "explicitWithdrawal": true,
+                "listPurposes": true,
+                "position": "bottom",
+                "rejectButtonDisplay": true,
+                "showTitle": false
+            }
+        };
+    </script>
+    <script type="text/javascript" src="https://cs.iubenda.com/autoblocking/3619378.js"></script>
+    <script type="text/javascript" src="//cdn.iubenda.com/cs/gpp/stub.js"></script>
+    <script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charset="UTF-8" async></script>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-R4FLVF3CFZ"></script>
     <script>
